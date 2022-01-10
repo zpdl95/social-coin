@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865450538317",
+    "project_id": "social-coin-c0f67",
+    "storage_bucket": "social-coin-c0f67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865450538317:android:0bde54da54a395641f3304",
+        "android_client_info": {
+          "package_name": "com.socialcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865450538317-es4ckjqg0hjdlbfsmd1q15rd2l304cba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs3666xhSxF9c3sB1XyblinsEKtP05lBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865450538317-es4ckjqg0hjdlbfsmd1q15rd2l304cba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
