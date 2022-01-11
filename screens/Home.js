@@ -39,15 +39,15 @@ const Home = () => {
       <FlatList
         indicatorStyle="white"
         /* 한 행이 1개의 컴포넌트가 됐기때문에 이것을 사용하면 행단위로 적용된다 */
-        ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
+        ItemSeparatorComponent={() => <View style={{ height: 6 }} />}
         /* numColumns = 컬럼생성 */
         numColumns={3}
         /* columnWrapperStyle = 컬럼 스타일 설정, 생성된 컬럼갯수만큼 묶어서 wrapper이 만들어짐 */
-        columnWrapperStyle={{ justifyContent: "space-between" }}
+        columnWrapperStyle={{ justifyContent: "space-evenly" }}
         data={cleanData}
         keyExtractor={(item) => item.id}
         renderItem={({ item, index }) => (
-          <Coin index={index} symbol={item.symbol} />
+          <Coin id={item.id} index={index} symbol={item.symbol} />
         )}
       />
     </Container>

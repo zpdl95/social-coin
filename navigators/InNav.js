@@ -2,6 +2,7 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "../screens/Home";
 import { BLACK_COLOR } from "../colors";
+import Detail from "../screens/Detail";
 
 const Nav = createNativeStackNavigator();
 
@@ -16,6 +17,7 @@ const InNav = () => (
     }}
   >
     <Nav.Screen name="coin" component={Home} />
+    <Nav.Screen name="detail" component={Detail} />
   </Nav.Navigator>
 );
 export default InNav;
