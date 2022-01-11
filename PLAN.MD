@@ -11,3 +11,5 @@
 11. npm install styled-components -> css스타일을 사용하기위해 설치. 사용하기 쉽고 prop에 접근가능한 스타일 컴포넌트
 12. npm install @types/styled-components @types/styled-components-react-native -> styled-components에 타입스크립트로 자동완성을 해주기 위해 설치
 13. expo install expo-app-loading -> loading컴포넌트 설치
+
+`https://rnfirebase.io/`firebase의 자세한 내용은 여기서

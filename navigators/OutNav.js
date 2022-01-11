@@ -9,6 +9,7 @@ const Nav = createNativeStackNavigator();
 const OutNav = () => (
   <Nav.Navigator
     screenOptions={{
+      animation: "slide_from_right",
       presentation: "modal",
       headerTintColor: "white",
       headerStyle: {
