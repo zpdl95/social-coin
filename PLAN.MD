@@ -12,4 +12,6 @@
 12. npm install @types/styled-components @types/styled-components-react-native -> styled-components에 타입스크립트로 자동완성을 해주기 위해 설치
 13. expo install expo-app-loading -> loading컴포넌트 설치
 14. npm i react-query -> 리엑트 쿼리 설치
+15. npm i victory-native -> victory차트 설치
+16. npm i react-native-svg -> 2차원 벡터 그래픽을 표현하기 위한 XML 기반의 파일 형식 지원 설치
     `https://rnfirebase.io/`firebase의 자세한 내용은 여기서
